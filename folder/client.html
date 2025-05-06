@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <!-- Wichtig: user-scalable=no verhindert das Zoom-Verhalten -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Emoji Sender</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      background-color: #f0f0f0;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    #emoji-buttons {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+
+    button {
+      position: absolute;
+      background: none;
+      border: none;
+      font-size: 6rem;
+      cursor: pointer;
+      padding: 0;
+      line-height: 1;
+      outline: none;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-user-select: none;
+      user-select: none;
+      touch-action: manipulation;
+    }
+
+    button:hover,
+    button:active,
+    button:focus {
+      transform: none;
+      outline: none;
+      box-shadow: none;
+    }
+
+    /* Platzierung */
+    .top-left     { top: 5%;   left: 13%; }
+    .top-right    { top: 5%;   right: 13%; }
+    .middle-left  { top: 45%;  left: 13%; transform: none; }
+    .middle-right { top: 45%;  right: 13%; transform: none; }
+    .bottom-left  { bottom: 5%; left: 13%; }
+    .bottom-right { bottom: 5%; right: 13%; }
+
+    @media (max-width: 600px) {
+      button {
+        font-size: 4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="emoji-buttons">
+    <button class="top-left">😄</button>
+    <button class="top-right">❤️</button>
+    <button class="middle-left">🎉</button>
+    <button class="middle-right">😢</button>
+    <button class="bottom-left">👍</button>
+    <button class="bottom-right">🔥</button>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="emoji.js"></script>
+</body>
+</html>
