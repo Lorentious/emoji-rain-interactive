@@ -31,7 +31,9 @@ Communication between clients and the server is handled using WebSockets.
 `cd emoji-rain-interactive`
 
 emoji-rain-interactive/
+
 ├── public/
+
 │   ├── client.html       # User interface for sending emojis
 │   ├── server.html       # Display showing the falling emoji animation
 │   └── style.css         # Shared styling
