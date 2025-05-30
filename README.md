@@ -31,7 +31,6 @@ Communication between clients and the server is handled using WebSockets.
 `cd emoji-rain-interactive`
 
 emoji-rain-interactive/
-
 ├── public/
 │   ├── client.html       # User interface for sending emojis
 │   ├── server.html       # Display showing the falling emoji animation
@@ -46,8 +45,8 @@ emoji-rain-interactive/
 ### 3. Start the server
 `npm start`
 
-The server will run by default on http://localhost:3000.
+The server will run by default on [http://localhost:3000](http://localhost:3000).
 
 ### 4. Open in browser
-Client view: http://localhost:3000/client
-Server view: http://localhost:3000/server
+Client view: [http://localhost:3000/client](http://localhost:3000/client)
+Server view: [http://localhost:3000/server](http://localhost:3000/server)
