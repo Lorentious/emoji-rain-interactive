@@ -26,14 +26,14 @@ Communication between clients and the server is handled using WebSockets.
 ## Getting Started
 
 ### 1. Clone the repository
-git clone https://github.com/Lorentious/emoji-rain-interactive.git
-> cd emoji-rain-interactive
+`git clone https://github.com/Lorentious/emoji-rain-interactive.git`
+`cd emoji-rain-interactive`
 
 ### 2. Install dependencies
-npm install
+`npm install`
 
 ### 3. Start the server
-npm start
+`npm start`
 
 The server will run by default on http://localhost:3000.
 
