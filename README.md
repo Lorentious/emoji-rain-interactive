@@ -33,19 +33,12 @@ Communication between clients and the server is handled using WebSockets.
 emoji-rain-interactive/
 
 ├── public/
-
 │   ├── client.html       # User interface for sending emojis
-
 │   ├── server.html       # Display showing the falling emoji animation
-
 │   └── style.css         # Shared styling
-
 ├── server.js             # WebSocket and Express server
-
 ├── package.json
-
 └── README.md
-
 
 ### 2. Install dependencies
 `npm install`
