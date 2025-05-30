@@ -49,4 +49,5 @@ The server will run by default on [http://localhost:3000](http://localhost:3000)
 
 ### 4. Open in browser
 Client view: [http://localhost:3000/client](http://localhost:3000/client)
+
 Server view: [http://localhost:3000/server](http://localhost:3000/server)
