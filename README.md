@@ -27,6 +27,7 @@ Communication between clients and the server is handled using WebSockets.
 
 ### 1. Clone the repository
 `git clone https://github.com/Lorentious/emoji-rain-interactive.git`
+
 `cd emoji-rain-interactive`
 
 ### 2. Install dependencies
