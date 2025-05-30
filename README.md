@@ -31,7 +31,7 @@ Communication between clients and the server is handled using WebSockets.
 `cd emoji-rain-interactive`
 
 > [!NOTE]
-> ## Project Structure\
+> ### Project Structure
 > emoji-rain-interactive/\
 > ├── public/\
 > │   ├── client.html       # User interface for sending emojis\
