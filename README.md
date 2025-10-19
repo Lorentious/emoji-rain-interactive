@@ -45,7 +45,7 @@ Communication between clients and the server is handled using WebSockets.
 `sudo apt install npm`
 
 ### 3. Start the server
-`npm start`
+`sudo node server.js`
 
 The server will run by default on [http://localhost:3000](http://localhost:3000).
 
