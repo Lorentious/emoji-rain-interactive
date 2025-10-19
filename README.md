@@ -42,7 +42,7 @@ Communication between clients and the server is handled using WebSockets.
 > └── README.md
 
 ### 2. Install dependencies
-`npm install`
+`sudo apt install npm`
 
 ### 3. Start the server
 `npm start`
