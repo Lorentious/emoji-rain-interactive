@@ -47,7 +47,7 @@ Communication between clients and the server is handled using WebSockets.
 `npm install socket.io`
 
 ### 3. Start the server
-`sudo node server.js`
+`node server.js`
 
 The server will run by default on [http://localhost:3000](http://localhost:3000).
 
