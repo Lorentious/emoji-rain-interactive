@@ -42,7 +42,7 @@ Communication between clients and the server is handled using WebSockets.
 > └── README.md
 
 ### 2. Install dependencies
-`sudo apt install npm`
+`npm install express`
 
 ### 3. Start the server
 `sudo node server.js`
