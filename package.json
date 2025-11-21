@@ -1,0 +1,26 @@
+{
+  "name": "emoji-rain-interactive-main",
+  "version": "1.0.0",
+  "description": "**Emoji Rain Interactive** is a simple client-server web application that lets users trigger an animated \"emoji rain\" on a separate screen by clicking on emojis in a client view. It’s ideal for live events, installations, or interactive displays.",
+  "homepage": "https://github.com/Lorentious/emoji-rain-interactive#readme",
+  "bugs": {
+    "url": "https://github.com/Lorentious/emoji-rain-interactive/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lorentious/emoji-rain-interactive.git"
+  },
+  "license": "MIT",
+  "author": "Laurenz Kuester",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {}
+}
